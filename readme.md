@@ -76,7 +76,7 @@ The engine is designed to be **State-Aware**:
 
 ---
 
-## 📊 Sample Parsed Output (Invoice)
+## 📊 Sample Parsed Result (Invoice)
 When an invoice is uploaded, the system generates a structured JSON response:
 
 ```json
@@ -98,6 +98,17 @@ When an invoice is uploaded, the system generates a structured JSON response:
 }
 ```
 
+## 📊 Sample Match Result 
+When matching is done with PO number
+
+```json
+{
+    "status": "mismatch",
+    "reasons": [
+        "invoice_date_after_po_date"
+    ]
+}
+```
 ---
 
 ## 🛠️ Installation & Setup
