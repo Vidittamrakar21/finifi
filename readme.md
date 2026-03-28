@@ -129,7 +129,6 @@ GEMINI_API_KEY=your_api_key_here
 ### Steps
 1.  **Install dependencies**: `npm install`
 2.  **Start the server**: `npm start`
-3.  **Open Frontend**: Open `index.html` in any modern browser.
 
 ---
 
